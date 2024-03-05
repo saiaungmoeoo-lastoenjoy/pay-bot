@@ -56,7 +56,7 @@ app.command("buy", async ({ replyWithMarkdown }) => {
 You want to know what I have to offer? Sure!
 
 ${products.reduce((acc, p) => {
-  return (acc += `*${p.name}* - ${p.price} €\n`);
+  return (acc += `*${p.name}* - $ ${p.price}\n`);
 }, "")}
 What do you want?`,
       Markup.keyboard(products.map((p) => p.name))

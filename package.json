@@ -8,8 +8,7 @@
     "start": "nodemon index.js"
   },
   "author": {
-    "name": "Ferdinand Mütsch",
-    "url": "https://ferdinand-muetsch.de"
+    "name": "Sai Aung"
   },
   "keywords": [
     "chatbot",
